@@ -1,0 +1,40 @@
+
+
+
+.title {
+    font-family:'Trebuchet MS'
+}
+
+.square {
+    background-color: darkblue;
+    width: 200px;
+    height: 200px;
+    border-radius: 20px;
+    margin: 50px auto;
+    transition: all 1s;
+}
+
+.square:hover {
+    background-color: salmon;
+    transform: rotate(30deg);
+}
+
+.button-div {
+    text-align: center;
+}
+
+.button {
+    color: navy;
+    background-color: lightskyblue;
+    padding: 15px;
+    border-radius: 10px;
+    text-decoration: none;
+    display: inline-block;
+    transition: all .3s;
+}
+
+.button:hover {
+    background-color: black;
+    color: white;
+    transform: scale(1.5);
+}
